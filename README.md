@@ -37,3 +37,5 @@ Diseño escenario alternativo
 
 ![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%204.png)
 
+# [Recursos](https://github.com/brayanpasa99/MockupsJuego/tree/master/recursos)
+
