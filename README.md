@@ -18,3 +18,9 @@ Escenario con los diseños de personajes, de bombas, estallidos y obstaculos
 Escenario con más obstaculos 
 
 ![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%202.png)
+
+# Tercer mockup
+
+Diseño de uno de los escenarios alternativos
+
+![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%203.png)
