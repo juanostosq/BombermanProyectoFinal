@@ -29,5 +29,5 @@ Diseño de uno de los escenarios alternativos
 
 Diseño escenario alternativo
 
-![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%204.PNG)
+![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%204.png)
 
