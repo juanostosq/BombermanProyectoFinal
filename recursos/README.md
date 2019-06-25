@@ -1,6 +1,6 @@
 # Imagenes
 
-<center><h1><a href="https://www.spriters-resource.com/mobile/bombermanforandroid/">Fuentes Sprites</a></h1></center>
+<h1><center><a href="https://www.spriters-resource.com/mobile/bombermanforandroid/">Fuentes Sprites</a></center></h1>
 
 * Bloques de escenarios
 
