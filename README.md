@@ -24,3 +24,10 @@ Escenario con más obstaculos
 Diseño de uno de los escenarios alternativos
 
 ![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%203.png)
+
+# Cuarto mockup
+
+Diseño escenario alternativo
+
+![No se encontró imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/Mockup%204.PNG)
+
