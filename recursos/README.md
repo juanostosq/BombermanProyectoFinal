@@ -8,7 +8,7 @@
 
 * Bombas
 
-![No se encontro imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/recursos/Meteor_02.png)![No se encontro imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/recursos/Meteor_05.png)
+![No se encontro imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/recursos/Meteor_02.png) ![No se encontro imagen](https://github.com/brayanpasa99/MockupsJuego/blob/master/recursos/Meteor_05.png)
 
 * Explosiones
 
