@@ -5,8 +5,8 @@ function Bomberman2(){
 	this.sprite = 0;
 	this.vida = 100;
 	this.puntos = 0;
-	this.i = 14;
-	this.j = 8;
+	this.j = 14;
+	this.i = 8;
 
 	this.matriz = [
 		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -61,6 +61,42 @@ function Bomberman2(){
 
 		if(accion=="derecha" && this.x < 1130 && this.matriz[(this.i)+1][this.j]==0){
 			this.i += 1;
+			this.x += 65;
+
+			this.sprite = 1;
+			this.vida = this.i;
+			this.puntos = this.j;
+		}
+	}
+	
+	this.actualizar = function(accion){
+		if(accion=="arriba" && this.y > 75 && this.matriz[this.i-1][this.j]!=1){
+			this.i -= 1;
+			this.y -= 65;
+
+			this.vida = this.i;
+			this.puntos = this.j;
+		}
+
+		if(accion=="abajo"  && this.y < 560 && this.matriz[this.i+1][this.j]==0){
+			this.i += 1;
+			this.y += 65;
+
+			this.vida = this.i;
+			this.puntos = this.j;
+		}
+
+		if(accion=="izquierda" && this.x >= 245 && this.matriz[this.i][this.j-1]==0){
+			this.j -= 1;
+			this.x -= 65;
+
+			this.sprite = 0;
+			this.vida = this.i;
+			this.puntos = this.j;
+		}
+
+		if(accion=="derecha" && this.x <= 1130 && this.matriz[this.i][this.j+1]==0){
+			this.j += 1;
 			this.x += 65;
 
 			this.sprite = 1;
