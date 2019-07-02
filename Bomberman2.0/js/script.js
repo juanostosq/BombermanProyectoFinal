@@ -10,7 +10,7 @@ function inicio(){
 	contexto = miCanvas.getContext("2d");
 	buffer = document.createElement("canvas");
 
-	mapa = new Mapa();
+	mapa = new Mapa("#mapa_1","#bloque_1");
 	bomberman_1 = new Bomberman1();
 	bomberman_2 = new Bomberman2();
 
