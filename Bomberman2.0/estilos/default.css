@@ -37,7 +37,7 @@ button {
 	color:#555555;
 }
 
-#arriba, #abajo, #salto, #sentado, #car_1, #car_2, #mapa, #izquierda_1, #izquierda_2, #derecha_1, #derecha_2 {
+.precargadas{
 	display:none;
 }
 
