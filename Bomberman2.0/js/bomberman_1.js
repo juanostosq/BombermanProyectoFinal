@@ -1,7 +1,7 @@
 function Bomberman1(){
 	this.x = 245;
 	this.y = 65;
-	this.img = [$("#izquierda_1")[0],$("#derecha_1")[0]];
+	this.img = [$("#izquierda_1")[0],$("#derecha_1")[0], $("#arriba_1")[0], $("#abajo_1")[0]];
 	this.sprite = 1;
 
 	this.i = 0;
@@ -40,6 +40,7 @@ function Bomberman1(){
 			this.i -= 1;
 			this.y -= 65;
 
+			this.sprite = 2;
 			this.vida = this.i;
 			this.puntos = this.j;
 		}
@@ -48,6 +49,7 @@ function Bomberman1(){
 			this.i += 1;
 			this.y += 65;
 
+			this.sprite = 3;
 			this.vida = this.i;
 			this.puntos = this.j;
 		}
