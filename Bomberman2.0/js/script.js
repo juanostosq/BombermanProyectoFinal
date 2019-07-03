@@ -1,6 +1,8 @@
 
 var jugando;
 var mapaSelector = 0;
+var puntos_1 = 10;
+var puntos_2 = 20;
 
 $(document).ready(inicio);
 $(document).keydown(capturaTeclado);
@@ -88,6 +90,9 @@ function run(){
 	buffer.height = miCanvas.height;
 	contextoBuffer = buffer.getContext("2d");
 
+	bomberman_1.posicion_bomberman2 = bomberman_2.posicion_bomberman2;
+	bomberman_2.posicion_bomberman1 = bomberman_1.posicion_bomberman1;
+
 	if(jugando){
 		contextoBuffer.clearRect(0,0,buffer.width,buffer.height);
 
@@ -97,6 +102,11 @@ function run(){
 
 		contexto.clearRect(0,0,miCanvas.width,miCanvas.height);
 		contexto.drawImage(buffer, 0, 0);
+
+		contexto.fillStyle = "#ffffff";
+		contexto.font = "30px sans-serif";
+		contexto.fillText("Victorias de blanco: "+ puntos_1, 150, 760);
+		contexto.fillText("Victorias de negro: "+ puntos_2, 800, 760);
 
 		setTimeout("run()",20);
 
