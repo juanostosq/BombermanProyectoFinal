@@ -14,6 +14,13 @@ function inicio(){
 	bomberman_1 = new Bomberman1();
 	bomberman_2 = new Bomberman2();
 
+	mapa.llenarMatriz();
+
+	bomberman_1.matriz = mapa.matriz;
+	bomberman_2.matriz = mapa.matriz;
+
+
+
 	run();
 }
 
@@ -45,7 +52,7 @@ function capturaTeclado(event){
 	//Tecla A
 	if (event.which==65)
 		bomberman_2.actualizar('izquierda')
-		
+
 }
 
 function run(){
