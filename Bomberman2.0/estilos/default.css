@@ -53,6 +53,38 @@ button {
 	display:none;
 }
 
+.botonimagen_1{
+  background-image:url("../imagenes/miniaturas/miniatura_1.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_2{
+  background-image:url("../imagenes/miniaturas/miniatura_2.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_3{
+  background-image:url("../imagenes/miniaturas/miniatura_3.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_4{
+  background-image:url("../imagenes/miniaturas/miniatura_4.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
 .content-popup {
     margin:0px auto;
     margin-top:120px;

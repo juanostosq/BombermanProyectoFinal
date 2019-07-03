@@ -33,8 +33,6 @@ function Bomberman2(){
 		ctx.restore();
 	}
 
-
-
 	this.actualizar = function(accion){
 		if(accion=="arriba" && this.y > 75 && this.matriz[this.i-1][this.j]!=1){
 			this.i -= 1;

@@ -1,5 +1,6 @@
 
 var jugando;
+var mapaSelector = 0;
 
 $(document).ready(inicio);
 $(document).keydown(capturaTeclado);
@@ -10,7 +11,11 @@ function inicio(){
 	contexto = miCanvas.getContext("2d");
 	buffer = document.createElement("canvas");
 
-	mapa = new Mapa("#mapa_1","#bloque_1");
+	if (mapaSelector == 0){
+		mapa = new Mapa("#mapa_1","#bloque_1");
+	} else{
+		//pass
+	}
 	bomberman_1 = new Bomberman1();
 	bomberman_2 = new Bomberman2();
 
@@ -18,10 +23,33 @@ function inicio(){
 
 	bomberman_1.matriz = mapa.matriz;
 	bomberman_2.matriz = mapa.matriz;
-
-
-
 	run();
+
+	//Selector de escenarios
+	$('#escenario_1').click(function(){
+		mapaSelector += 1;
+		mapa = new Mapa("#mapa_1","#bloque_1");
+		inicio();
+	});
+
+	$('#escenario_2').click(function(){
+		mapaSelector += 1;
+		mapa = new Mapa("#mapa_2","#bloque_2");
+		inicio();
+	});
+
+	$('#escenario_3').click(function(){
+		mapaSelector += 1;
+		mapa = new Mapa("#mapa_3","#bloque_3");
+		inicio();
+	});
+
+	$('#escenario_4').click(function(){
+		mapaSelector += 1;
+		mapa = new Mapa("#mapa_4","#bloque_4");
+		inicio();
+	});
+
 }
 
 function capturaTeclado(event){
