@@ -1,7 +1,6 @@
 function Mapa(escenario, bloque){
   this.x = 0;
   this.y = 0;
-  //this.img = $("#mapa")[0];
 
   this.img = $(escenario)[0];
   this.bloques = $(bloque)[0];
@@ -60,9 +59,9 @@ function Mapa(escenario, bloque){
 			for (var i = 0; i < 9; i++) {
 				for (var j = 0; j < 15; j++){
 					if (this.matriz[i][j]==1){
-						ctx.drawImage(this.bloques, (245 + j*65),(75 + i*65));
+						ctx.drawImage(this.bloques, (250 + j*64),(72 + i*64));
 					}else{
-
+            //pass
 					}
 				}
 			}
