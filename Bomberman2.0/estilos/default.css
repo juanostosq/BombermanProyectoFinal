@@ -37,7 +37,7 @@ button {
 	color:#555555;
 }
 
-#arriba, #abajo, #salto, #sentado, #car_1, #car_2, #mapa, #izquierda_1, #izquierda_2, #derecha_1, #derecha_2 {
+#arriba, #abajo, #salto, #sentado, #car_1, #car_2, #mapa, #izquierda_1, #izquierda_2, #derecha_1, #derecha_2 , #mapa_1,#mapa_2,#mapa_3, #mapa_4, #bloque_1, #bloque_2, #bloque_3, #bloque_4{
 	display:none;
 }
 
@@ -47,6 +47,42 @@ button {
     top: 0;
     width: 100%;
     z-index: 1001;
+}
+
+.precargadas{
+	display:none;
+}
+
+.botonimagen_1{
+  background-image:url("../imagenes/miniaturas/miniatura_1.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_2{
+  background-image:url("../imagenes/miniaturas/miniatura_2.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_3{
+  background-image:url("../imagenes/miniaturas/miniatura_3.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_4{
+  background-image:url("../imagenes/miniaturas/miniatura_4.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
 }
 
 .content-popup {

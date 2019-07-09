@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="estilos/default.css" media="screen">
 		<script src="js/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
 		<script src="js/mapa.js" language="JavaScript1.2"></script>
+		<script src="js/bomba.js" language="JavaScript1.2"></script>
 		<script src="js/bomberman_1.js" language="JavaScript1.2"></script>
 		<script src="js/bomberman_2.js" language="JavaScript1.2"></script>
 		<script src="js/script.js" language="JavaScript1.2"></script>
@@ -26,28 +27,67 @@
 
 		<section>
 			<h1>Bomberman 2.0</h1>
-			<button id="iniciar">Iniciar</button>
-			<button id="escenario">Seleccionar escenario</button><br>
+			<h3>Escenarios</h3>
+
+			<button id="escenario_1" class="botonimagen_1"></button><br>
+			<button id="escenario_2" class="botonimagen_2"></button><br>
+			<button id="escenario_3" class="botonimagen_3"></button><br>
+			<button id="escenario_4" class="botonimagen_4"></button><br>
 		</section>
 
+		<img id="izquierda_1" class="precargadas" src="imagenes/B1I1.png"/>
+		<img id="derecha_1" class="precargadas" src="imagenes/B1D1.png"/>
 
-		<img id="abajo" src="imagenes/hen1.png"/>
-		<img id="arriba" src="imagenes/hen2.png"/>
+		<img id="izquierda_2" class="precargadas" src="imagenes/B2I1.png"/>
+		<img id="derecha_2" class="precargadas" src="imagenes/B2D1.png"/>
 
-		<img id="izquierda_1" src="imagenes/bomberman_1_izq.png"/>
-		<img id="derecha_1" src="imagenes/bomberman_1_der.png"/>
+		<img id="arriba_1" class="precargadas" src="imagenes/B1A1.png"/>
+		<img id="abajo_1" class="precargadas" src="imagenes/B1B1.png"/>
 
-		<img id="izquierda_2" src="imagenes/bomberman_2_izq.png"/>
-		<img id="derecha_2" src="imagenes/bomberman_2_der.png"/>
+		<img id="arriba_2" class="precargadas" src="imagenes/B2A1.png"/>
+		<img id="abajo_2" class="precargadas" src="imagenes/B2B1.png"/>
 
-		<img id="salto" src="imagenes/hen1.png"/>
-		<img id="sentado" src="imagenes/hen3.png"/>
-		<img id="car_1" src="imagenes/car1.png"/>
-		<img id="car_2" src="imagenes/car2.png"/>
-		<img id="mapa" src="imagenes/mapa_3.png"/>
-		
-		<img id="mapa_1" src="imagenes/escenarios/Escenario1.png"/>
-		<img id="bloque_1" src="imagenes/escenarios/bloque_1.png"/>
+
+		<img id="mapa_1" class "precargadas" src="imagenes/escenarios/Escenario1.png"/>
+		<img id="mapa_2" class "precargadas" src="imagenes/escenarios/Escenario2.png"/>
+		<img id="mapa_3" class "precargadas" src="imagenes/escenarios/Escenario3.png"/>
+		<img id="mapa_4" class "precargadas" src="imagenes/escenarios/Escenario4.png"/>
+
+		<img id="bloque_1" class "precargadas" src="imagenes/escenarios/bloque_1.png"/>
+		<img id="bloque_2" class "precargadas" src="imagenes/escenarios/bloque_2.png"/>
+		<img id="bloque_3" class "precargadas" src="imagenes/escenarios/bloque_3.png"/>
+		<img id="bloque_4" class "precargadas" src="imagenes/escenarios/bloque_4.png"/>
+
+		<!-- Bombas -->
+
+		<img id="bomba_1" class="precargadas" src="imagenes/Meteor_02.png"/>
+		<img id="bomba_2" class="precargadas" src="imagenes/Meteor_05.png"/>
+
+			<!-- Bomba1 -->
+
+		<img id="sprite1_b1" class="precargadas" src="imagenes/Explosion1_1.png"/>
+		<img id="sprite2_b1" class="precargadas" src="imagenes/Explosion1_2.png"/>
+		<img id="sprite3_b1" class="precargadas" src="imagenes/Explosion1_3.png"/>
+		<img id="sprite4_b1" class="precargadas" src="imagenes/Explosion1_4.png"/>
+		<img id="sprite5_b1" class="precargadas" src="imagenes/Explosion1_5.png"/>
+		<img id="sprite6_b1" class="precargadas" src="imagenes/Explosion1_6.png"/>
+		<img id="sprite7_b1" class="precargadas" src="imagenes/Explosion1_7.png"/>
+		<img id="sprite8_b1" class="precargadas" src="imagenes/Explosion1_8.png"/>
+		<img id="sprite9_b1" class="precargadas" src="imagenes/Explosion1_9.png"/>
+
+
+			<!-- Bomba2 -->
+
+		<img id="sprite1_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_000.png"/>
+		<img id="sprite2_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_001.png"/>
+		<img id="sprite3_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_002.png"/>
+		<img id="sprite4_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_003.png"/>
+		<img id="sprite5_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_004.png"/>
+		<img id="sprite6_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_005.png"/>
+		<img id="sprite7_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_006.png"/>
+		<img id="sprite8_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_007.png"/>
+		<img id="sprite9_b2" class="precargadas" src="imagenes/Sprite_Effects_Explosion_008.png"/>
+
 
 
 	</body>
